@@ -229,7 +229,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/01/19/2018-1-19/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/04/08/reduce用法浅解决/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="冯彦文">
@@ -248,7 +248,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/01/19/2018-1-19/" itemprop="url">第四十期</a></h1>
+                <a class="post-title-link" href="/2018/04/08/reduce用法浅解决/" itemprop="url">reduce用法浅解</a></h1>
         
 
         <div class="post-meta">
@@ -260,8 +260,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-19T11:30:30+08:00">
-                2018-01-19
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-04-08T11:32:30+08:00">
+                2018-04-08
               </time>
             
 
@@ -322,14 +322,8 @@
       
         
           
-            <ul>
-<li><p>寻找并删除Git记录中的大文件<br><a href="http://harttle.land/2016/03/22/purge-large-files-in-gitrepo.html" target="_blank" rel="noopener">http://harttle.land/2016/03/22/purge-large-files-in-gitrepo.html</a></p>
-</li>
-<li><p>css不只是简单的布局<br><a href="https://juejin.im/post/5a446d19f265da43052eebcc" target="_blank" rel="noopener">https://juejin.im/post/5a446d19f265da43052eebcc</a></p>
-</li>
-<li><p>初探Electron - 理论篇<br><a href="https://juejin.im/entry/5a4e02d5f265da432718a6fe" target="_blank" rel="noopener">https://juejin.im/entry/5a4e02d5f265da432718a6fe</a></p>
-</li>
-</ul>
+            <p>先来写一个例子<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">var result = [1,2,3,4,5,6].reduce((pre,next,index,current)=&gt;&#123;</span><br><span class="line">  return pre + next</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></p>
+<p>我们再浏览器运行一下，可以轻易的知道结果是这几个数的累计，那这到底是怎么实现的呢？<br>第一次运行的时候pre是数组的第一项1，next是2，因为已经到第二项了，所以index是1， return的和是3<br>，和作为下一次的循环，成为pre，因为上次index已经到1了，所以next是第三项3，此次index<br>变为了2，依次累加</p>
 
           
         
@@ -369,7 +363,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/48/">48</a><a class="extend next" rel="next" href="/page/4/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><span class="space">&hellip;</span><a class="page-number" href="/page/49/">49</a><a class="extend next" rel="next" href="/page/4/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -415,7 +409,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">48</span>
+                  <span class="site-state-item-count">49</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
